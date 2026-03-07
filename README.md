@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Portfolio
 
-# Run and deploy your AI Studio app
+Welcome to my portfolio! This showcase features my projects, skills, and experience in software development.
 
-This contains everything you need to run your app locally.
+## About Me
 
-View your app in AI Studio: https://ai.studio/apps/12814f3f-2a7a-4c1f-aa51-67ff5bcfcbc0
+I'm a passionate software developer with expertise in full-stack web development. I enjoy building scalable applications and solving complex problems through code. With a strong foundation in modern technologies and frameworks, I'm committed to continuous learning and delivering high-quality software solutions.
 
-## Run Locally
+## Skills
 
-**Prerequisites:**  Node.js
+- **Languages**: JavaScript, Python, C++, SQL etc.
+- **Frontend**: React, HTML/CSS
+- **Backend**: Django, REST Framework, Node.js, Express.js
+- **Databases**: MySQL, PostgreSQL
+- **Tools**: Git, Docker, VS Code
 
+## Contact
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- LinkedIn: [profile](https://www.linkedin.com/in/naveen-sahu-a61aab258/)
+- GitHub: [profile](https://github.com/coder-naveen18)
+  Feel free to reach out for collaborations or inquiries!
