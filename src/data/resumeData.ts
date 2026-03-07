@@ -4,6 +4,7 @@ export const RESUME_DATA: ResumeData = {
   basics: {
     name: 'Naveen Sahu',
     label: 'Backend Developer & Tech Enthusiast',
+    image: '/profile.jpeg',
     summary:
       'Detail-oriented Backend Developer with a strong foundation in Python and Django/DRF, specializing in building scalable and secure RESTful APIs. Expertise in relational schemas with MySQL and full-stack architecture.',
     location: 'Jaipur, Rajasthan, India',

@@ -1,6 +1,7 @@
 export interface ResumeBasics {
   name: string;
   label: string;
+  image?: string;
   summary: string;
   location: string;
   email: string;
