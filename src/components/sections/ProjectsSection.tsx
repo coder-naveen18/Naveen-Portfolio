@@ -1,4 +1,4 @@
-import { ArrowUpRight, FolderGit2, Github } from "lucide-react";
+import { ArrowUpRight, FolderGit2 } from "lucide-react";
 import type { ResumeProject } from "../../types/resume";
 import { Section } from "../ui/Section";
 
@@ -69,7 +69,20 @@ export const ProjectsSection = ({ projects }: ProjectsSectionProps) => {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 text-rust hover:text-light transition-colors text-sm font-semibold"
               >
-                <Github size={16} />
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 2c-5.5 0-10 4.5-10 10 0 4.4 2.9 8.1 6.9 9.4.5.1.7-.2.7-.5v-1.9c-2.8.6-3.3-1.2-3.3-1.2-.4-1-.9-1.3-.9-1.3-.8-.6.1-.6.1-.6.9.1 1.4.9 1.4.9.8 1.4 2.2 1 2.8.8.1-.6.3-1 .6-1.2-2.2-.3-4.5-1.1-4.5-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.4.1-2.9 0 0 .8-.2 2.8 1 .8-.2 1.7-.3 2.6-.3s1.8.1 2.6.3c2-.1 2.8-1 2.8-1 .5 1.5.2 2.6.1 2.9.7.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.3.6.8.6 1.6v2.4c0 .3.2.6.7.5 4-1.3 6.9-5 6.9-9.4 0-5.5-4.5-10-10-10z"
+                    stroke="currentColor"
+                    strokeWidth="0.5"
+                    strokeLinejoin="round"
+                  />
+                </svg>
                 GitHub
               </a>
 
