@@ -10,6 +10,9 @@ export const AnimatedBackground = () => {
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
+    const canvasEl = canvas;
+    const ctx2d = ctx;
+
     let animationFrameId: number;
     let particles: Particle[] = [];
 
@@ -26,8 +29,8 @@ export const AnimatedBackground = () => {
       size: number;
 
       constructor() {
-        this.x = Math.random() * canvas.width;
-        this.y = Math.random() * canvas.height;
+        this.x = Math.random() * canvasEl.width;
+        this.y = Math.random() * canvasEl.height;
         this.vx = (Math.random() - 0.5) * 0.5;
         this.vy = (Math.random() - 0.5) * 0.5;
         this.size = Math.random() * 2;
@@ -37,15 +40,15 @@ export const AnimatedBackground = () => {
         this.x += this.vx;
         this.y += this.vy;
 
-        if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
-        if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+        if (this.x < 0 || this.x > canvasEl.width) this.vx *= -1;
+        if (this.y < 0 || this.y > canvasEl.height) this.vy *= -1;
       }
 
       draw() {
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(224, 102, 65, 0.4)";
-        ctx.fill();
+        ctx2d.beginPath();
+        ctx2d.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx2d.fillStyle = "rgba(224, 102, 65, 0.4)";
+        ctx2d.fill();
       }
     }
 
@@ -66,24 +69,24 @@ export const AnimatedBackground = () => {
           const dist = Math.sqrt(dx * dx + dy * dy);
 
           if (dist < 150) {
-            ctx.beginPath();
-            ctx.moveTo(particles[i].x, particles[i].y);
-            ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(224, 102, 65, ${0.15 * (1 - dist / 150)})`;
-            ctx.stroke();
+            ctx2d.beginPath();
+            ctx2d.moveTo(particles[i].x, particles[i].y);
+            ctx2d.lineTo(particles[j].x, particles[j].y);
+            ctx2d.strokeStyle = `rgba(224, 102, 65, ${0.15 * (1 - dist / 150)})`;
+            ctx2d.stroke();
           }
         }
       }
     };
 
     const resize = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      canvasEl.width = window.innerWidth;
+      canvasEl.height = window.innerHeight;
       initParticles();
     };
 
     const animate = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx2d.clearRect(0, 0, canvasEl.width, canvasEl.height);
 
       particles.forEach((particle) => {
         particle.update();

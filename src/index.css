@@ -297,6 +297,56 @@ section { padding: 7rem 3rem; }
 .project-link { font-size: .8rem; color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent-border); padding-bottom: .1rem; transition: opacity .2s; }
 .project-link:hover { opacity: .7; }
 
+/* ── Open Source ───────────────────────────────────── */
+.opensource-section { background: rgba(167,139,250,.02); }
+.opensource-subtitle {
+  font-size: .95rem; font-weight: 600; margin: 2.2rem 0 1rem;
+  color: var(--white); letter-spacing: .01em;
+}
+.opensource-grid {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px; background: var(--border); border: 1px solid var(--border);
+  border-radius: 20px; overflow: hidden;
+}
+.opensource-card {
+  background: var(--black); padding: 1.6rem 1rem; text-decoration: none;
+  color: var(--white); text-align: center; min-height: 135px;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  transition: background .25s, border-color .25s;
+}
+.opensource-card:hover { background: var(--card-hover); }
+.opensource-icon { font-size: 1.8rem; margin-bottom: .75rem; }
+.opensource-icon img { width: 56px; height: 56px; object-fit: contain; display: block; margin: 0 auto .75rem; }
+.opensource-title { font-size: .78rem; color: var(--muted); line-height: 1.45; }
+
+.opensource-collage-wrap { margin-top: 1.6rem; display: flex; justify-content: center; }
+.opensource-collage {
+  width: 100%; max-width: 1100px; border-radius: 12px; display: block;
+  border: 1px solid var(--border); background: var(--black); padding: 10px; object-fit: cover;
+}
+
+.opensource-achievements { display: flex; flex-direction: column; gap: .75rem; }
+.opensource-achievement-row {
+  display: flex; align-items: center; gap: .75rem;
+  padding: .95rem 1rem; border-radius: 12px;
+  border: 1px solid rgba(167,139,250,.18);
+  background: linear-gradient(90deg, rgba(167,139,250,.07), rgba(167,139,250,.02));
+}
+.opensource-achievement-row p { font-size: .9rem; color: var(--white); opacity: .9; }
+.opensource-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--accent); box-shadow: 0 0 0 3px rgba(167,139,250,.15);
+  flex-shrink: 0;
+}
+.opensource-summary {
+  margin-top: 1rem;
+  border: 1px solid rgba(167,139,250,.22);
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(167,139,250,.08), rgba(99,102,241,.06));
+  padding: 1.15rem 1.2rem;
+}
+.opensource-summary p { font-size: .9rem; color: var(--white); opacity: .88; line-height: 1.75; }
+
 /* ── Certificates ───────────────────────────────────── */
 .certs-grid {
   display: grid; grid-template-columns: repeat(3,1fr); gap: 1px;
@@ -308,6 +358,14 @@ section { padding: 7rem 3rem; }
 .cert-icon { font-size: 1.4rem; margin-bottom: 1rem; }
 .cert-name { font-size: .9rem; font-weight: 500; margin-bottom: .4rem; line-height: 1.4; }
 .cert-date { font-size: .75rem; color: var(--muted); font-weight: 300; }
+
+@media (max-width: 900px) {
+  .opensource-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 520px) {
+  .opensource-grid { grid-template-columns: 1fr; }
+}
 
 /* ── Contact ────────────────────────────────────────── */
 .contact-section { background: rgba(167,139,250,.03); text-align: center; }

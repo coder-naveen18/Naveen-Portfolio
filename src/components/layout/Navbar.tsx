@@ -52,6 +52,7 @@ export const Navbar = ({
           <button
             onClick={onEmailClick}
             aria-label="Contact via email"
+            title={contactEmail}
             className="bg-light text-dark px-5 py-2 rounded-full font-bold text-sm hover:bg-rust hover:text-light transition-all transform hover:scale-105"
           >
             Contact Me

@@ -36,3 +36,11 @@ export interface SkillGroup {
   label: string
   skills: string[]
 }
+
+export interface OpenSourceBadge {
+  title: string
+  icon: string
+  // optional image path (prefer placing originals in /public/badges/)
+  image?: string
+  link: string
+}

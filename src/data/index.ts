@@ -1,4 +1,4 @@
-import type { Experience, Project, Certificate, ContactItem, SkillGroup } from '../types'
+import type { Experience, Project, Certificate, ContactItem, SkillGroup, OpenSourceBadge } from '../types'
 
 export const techPills: string[] = [
   'React', 'Next.js', 'TypeScript', 'Django', 'Node.js', 'Express.js',
@@ -102,6 +102,33 @@ export const certificates: Certificate[] = [
   { icon: '🖥️', name: 'Explore a Career in Front-End Web Development', date: 'July 2025' },
   { icon: '⚙️', name: 'JavaScript Essential Training', date: 'July 2025' },
   { icon: '🌐', name: 'Explore Web Development With Node.js', date: 'August 2025' },
+]
+
+
+export const openSourceAchievements: string[] = [
+  'Merged 6 pull requests to various open source repositories',
+  'Fixed bugs and added features to Python (Django) projects',
+  'Contributed to Python and JavaScript projects',
+]
+
+export const openSourceSummary =
+  'Active contributor to the open source community. Participated in Hacktoberfest 2025 and achieved Supercontributor status by making meaningful contributions to various projects. Earned multiple badges through consistent effort and high-quality pull requests.'
+
+// Holopin collage image (public-facing image that shows all badges)
+export const openSourceCollage = {
+  src: 'https://holopin.me/codernaveen18',
+  link: 'https://holopin.io/@codernaveen18',
+}
+
+export const openSourceBadges: OpenSourceBadge[] = [
+  { title: 'Hacktoberfest 2025: Level 0 Registered', icon: '🧑‍🚀', image: '/badges/hacktoberfest-level0.png', link: 'https://www.holopin.io/' },
+  { title: 'Hacktoberfest 2025: Level 1 Contributor', icon: '🚀', image: '/badges/hacktoberfest-level1.png', link: 'https://www.holopin.io/' },
+  { title: 'Hacktoberfest 2025: Level 2 Contributor', icon: '🛰️', image: '/badges/hacktoberfest-level2.png', link: 'https://www.holopin.io/' },
+  { title: 'Hacktoberfest 2025: Level 3 Contributor', icon: '🌌', image: '/badges/hacktoberfest-level3.png', link: 'https://www.holopin.io/' },
+  { title: 'Hacktoberfest 2025: Level 4 Contributor', icon: '⭐', image: '/badges/hacktoberfest-level4.png', link: 'https://www.holopin.io/' },
+  { title: 'Holopin x Hacktoberfest: 1 Badge Club', icon: '🪐', image: '/badges/holopin-1-badge.png', link: 'https://www.holopin.io/' },
+  { title: 'Holopin x Hacktoberfest: 5 Badge Club', icon: '🌍', image: '/badges/holopin-5-badge.png', link: 'https://www.holopin.io/' },
+  { title: 'Hacktoberfest 2025: Supercontributor', icon: '🏅', image: '/badges/supercontributor.png', link: 'https://www.holopin.io/' },
 ]
 
 export const contactItems: ContactItem[] = [

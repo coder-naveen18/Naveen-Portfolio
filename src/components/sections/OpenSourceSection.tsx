@@ -1,4 +1,4 @@
-import { GitBranch, ExternalLink } from "lucide-react";
+import { GitBranch } from "lucide-react";
 import { Section } from "../ui/Section";
 import type { OpenSourceContribution } from "../../types/resume";
 
