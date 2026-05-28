@@ -17,9 +17,9 @@ export default function AboutSection() {
           </h2>
           <div className="about-text" style={{ marginTop: "1.5rem" }}>
             <p>
-              I'm a 3rd-year B.Tech CSE student at Vivekananda Institute of
-              Technology, Jaipur with a strong foundation in full stack
-              development.
+              I'm a recently graduated B.Tech CSE student at Vivekananda
+              Institute of Technology, Jaipur with a strong foundation in full
+              stack development.
             </p>
             <p>
               I enjoy architecting end-to-end systems — from designing
@@ -115,7 +115,8 @@ export default function AboutSection() {
                 Senior Secondary (Science – Mathematics)
               </div>
               <div style={{ fontSize: ".78rem", color: "var(--accent)" }}>
-                NEW SARASWATI BAL V M SR SEC SCH,GUJRATI MOHALLA,INDRAGARH
+                NEW SARASWATI BAL V M SR SEC SCH,GUJRATI
+                MOHALLA,INDRAGARH(BUNDI)
               </div>
               <div
                 style={{
@@ -124,7 +125,39 @@ export default function AboutSection() {
                   marginTop: ".2rem",
                 }}
               >
-                2021{" "}
+                2021 --- 97.40%{" "}
+              </div>
+            </div>
+
+            <br />
+            <div
+              style={{
+                background: "var(--card-bg)",
+                border: "1px solid var(--border)",
+                borderRadius: "14px",
+                padding: "1.25rem",
+              }}
+            >
+              <div
+                style={{
+                  fontSize: ".88rem",
+                  fontWeight: 500,
+                  marginBottom: ".25rem",
+                }}
+              >
+                Secondary Education
+              </div>
+              <div style={{ fontSize: ".78rem", color: "var(--accent)" }}>
+                ADARSH BAL VIDHYA MANDIR SEC SCH,KARWAR(BUNDI)
+              </div>
+              <div
+                style={{
+                  fontSize: ".75rem",
+                  color: "var(--muted)",
+                  marginTop: ".2rem",
+                }}
+              >
+                2019 --- 87.83%{" "}
               </div>
             </div>
           </div>
