@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
       'Integrated real-time, API-driven dashboards and analytics to replace hardcoded statistics across modules.',
       'Built a responsive React + TypeScript frontend with Django backend services for a complete hospital workflow solution.',
     ],
-    tags: ['React', 'TypeScript', 'Django', 'REST APIs','JWT','PostgreSQL', 'RBAC', 'Celery','Whatsapp(Twilio)'],
+    tags: ['React', 'TypeScript', 'Django', 'REST APIs','JWT','PostgreSQL', 'RBAC', 'Celery','Whatsapp(Twilio)','Email(EmailJS)'],
   },
   {
     role: 'Next.js Developer',
@@ -83,7 +83,7 @@ export const projects: Project[] = [
     icon: '🏥',
     name: 'Hospital Management System',
     desc: 'End-to-end HMS for small hospitals with patient management, OPD/IPD workflows, appointment scheduling, billing with invoice generation, role-based access, and real-time analytics dashboards.',
-    stack: ['React', 'TypeScript', 'Django', 'REST APIs', 'JWT','PostgreSQL', 'RBAC', 'Celery','Whatsapp(Twilio)'],
+    stack: ['React', 'TypeScript', 'Django', 'REST APIs', 'JWT','PostgreSQL', 'RBAC', 'Celery','Whatsapp(Twilio)','Email(EmailJS)'],
     note: 'IQuint Technology Services',
   },
   {
