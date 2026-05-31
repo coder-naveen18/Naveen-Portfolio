@@ -32,7 +32,7 @@ export const experiences: Experience[] = [
   {
     role: 'Software Engineer Intern',
     company: 'IQuint Technology Services',
-    period: 'March 2026 — Present',
+    period: 'March 2026 — May 2026 (3 months)',
     bullets: [
       'Building a full-stack Hospital Management System for small and village-area hospitals (10–150 bed capacity) managing patients, appointments, OPD/IPD workflows, billing, and reports.',
       'Developed a billing and payment module with invoice generation, discounts, receipts, audit trail, and collection reports.',
@@ -84,7 +84,7 @@ export const projects: Project[] = [
     name: 'Hospital Management System',
     desc: 'End-to-end HMS for small hospitals with patient management, OPD/IPD workflows, appointment scheduling, billing with invoice generation, role-based access, and real-time analytics dashboards.',
     stack: ['React', 'TypeScript', 'Django', 'REST APIs', 'JWT','PostgreSQL', 'RBAC', 'Celery','Whatsapp(Twilio)'],
-    note: 'In progress at IQuint',
+    note: 'IQuint Technology Services',
   },
   {
     num: '04 / UI Engineering',

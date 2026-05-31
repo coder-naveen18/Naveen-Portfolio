@@ -74,7 +74,7 @@ export default function HeroSection() {
 
       <p className="hero-sub">
         Building scalable web applications with React, Next.js, Django &amp;
-        Node.js. Currently interning at IQuint Technology Services,
+        Node.js. Recently completed an internship at IQuint Technology Services,
         Noida(remote).
       </p>
 
