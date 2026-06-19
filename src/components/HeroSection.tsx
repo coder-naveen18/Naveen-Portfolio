@@ -93,7 +93,7 @@ export default function HeroSection() {
 
       <div className="hero-actions-download">
         <a
-          href="/Latest%20Resume.pdf"
+          href="/NaveenResume.pdf"
           download="Naveen-Sahu-Resume.pdf"
           className="btn-primary"
         >

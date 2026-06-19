@@ -94,7 +94,6 @@ export const projects: Project[] = [
     desc: "Rebuilt a production web app's UI from legacy code into modular Next.js components with Tailwind CSS, supporting unconventional screen sizes and improved rendering via restructured component hierarchy.",
     stack: ['Next.js', 'Tailwind CSS', 'Responsive', 'Performance'],
     note: 'computatia.in — VGU',
-    featured: true,
   },
 ]
 
@@ -136,6 +135,8 @@ export const contactItems: ContactItem[] = [
   { icon: '📱', label: 'Phone',    value: '+91 95714 79524',                 href: 'tel:+919571479524' },
   { icon: '💼', label: 'LinkedIn', value: 'naveen-sahu',                     href: 'https://linkedin.com/in/naveen-sahu-a61aab258/' },
   { icon: '🐙', label: 'GitHub',   value: 'coder-naveen18',                  href: 'https://github.com/coder-naveen18' },
+  { icon: '💻', label: 'LeetCode', value: 'x0MKxltjGM',                      href: 'https://leetcode.com/u/x0MKxltjGM/' },
+  { icon: '🏆', label: 'HackerRank', value: 'codersahu18',                   href: 'https://www.hackerrank.com/profile/codersahu18' },
 ]
 
 export const typewriterRoles: string[] = [
