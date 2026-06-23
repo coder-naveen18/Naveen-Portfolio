@@ -100,11 +100,6 @@ export default function HeroSection() {
           Download Resume
         </a>
       </div>
-
-      <div className="scroll-ind">
-        <div className="scroll-line" />
-        Scroll
-      </div>
     </section>
   );
 }

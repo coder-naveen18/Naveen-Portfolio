@@ -1,5 +1,4 @@
 import { useScrollReveal } from "./hooks";
-import CustomCursor from "./components/CustomCursor";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import TechMarquee from "./components/TechMarquee";
@@ -16,7 +15,6 @@ export default function App() {
 
   return (
     <>
-      <CustomCursor />
       <Navbar />
       <HeroSection />
       <TechMarquee />
