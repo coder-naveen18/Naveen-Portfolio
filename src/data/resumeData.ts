@@ -11,7 +11,7 @@ export const RESUME_DATA: ResumeData = {
     links: {
       linkedin: "https://linkedin.com/in/naveen-sahu-a61aab258/",
       github: "https://github.com/coder-naveen18",
-      resume: "/NaveenResume.pdf",
+      resume: "/NaveenUpdatedResume.pdf",
       email: "sahu18.naveen@gmail.com",
     },
   },
